@@ -290,7 +290,6 @@ local function timed(args)
 
 		-- does annoying awestore compatibility
 		if obj.awestore_compat then
-			obj._initial = obj.pos
 			obj._last = obj._props.target
 			obj.started:fire(obj.pos, time, dx)
 		end
