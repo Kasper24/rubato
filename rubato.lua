@@ -309,7 +309,7 @@ local function timed(obj)
 		s_counter = s_counter - 1
 	end
 
-	function obj:reset(func)
+	function obj:reset()
 		time = 0
 		target = nil
 		dt = 1 / obj.rate
